@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design Testing</title>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+    <div class="wide">
+      <span class="toLeft">Logo</span>
+      <a>Home</a>
+      <a>News w/ dropdown</a>
+      <a>events w/ dropdown</a>
+      <a>Programs</a>
+      <a>Spaces</a>
+      <a>Partner</a>
+      <a class="toRight">Email</a>
+    </div>
+    <div class="narrow">
+      <span onclick="displayNav()">Links</span>
+      <span class="toLeft">Logo</span>
+      <div id="narrowLinks" style="left: -400px;">
+        <a>Home</a><br />
+        <a>News w/ dropdown</a><br />
+        <a>events w/ dropdown</a><br />
+        <a>Programs</a><br />
+        <a>Spaces</a><br />
+        <a>Partner</a><br />
+        <a>Email</a>
+      </div>
+    </div>
+
+  </nav>
+
+  <header>
+    <div class="toLeft">Header left</div>
+    <div class="toRight">Header right</div>
+  </header>
+
+  <main>
+    <h2>Today's Headline Articles</h2>
+    <section class="articleContainer">
+      <div class="articleLink">
+        Two word description
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="articleLink">
+        Two word description
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="articleLink">
+        Two word description
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="articleLink">
+        Two word description
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="articleLink">
+        Two word description
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="articleLink">
+        Two word description
+        <a>Placeholders for many articles</a>
+      </div>
+    </section>
+    <section class="popContainer">
+      <h3>Popular Articles Today</h3><br />
+      <div class="popularArticles">
+        <a>Placeholders for a few more articles</a>
+        <a>Placeholders for a few more articles</a>
+        <a>Placeholders for a few more articles</a>
+        <a>Placeholders for a few more articles</a>
+        <a>Placeholders for a few more articles</a>
+      </div>
+    </section>
+  </main>
+
+  <section class="latestContainer">
+    <h3>Latest Stories</h3>
+    <div class="latestStories">
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+      <div class="subArticleLink">
+        <span class="imgPH"></span>
+        <a>Placeholders for many articles</a>
+      </div>
+    </div>
+    <button id="allNewsButton" type="button">ALL NEWS ></button>
+  </section>
+
+  <footer>
+    <div class="upperFooter">
+      <div class="selfDescription toLeft">
+        <span>logo</span><br />
+        <span>info about us</span><br />
+        <span>links</span>
+      </div>
+      <section class="bottomLinks toRight">
+        <div class="toLeft">
+          More Us<br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a>
+        </div>
+        <div class="toRight">
+          About us<br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a><br />
+          <a>placeholder links</a>
+        </div>
+      </section>
+    </div>
+
+    <section class="lowerFooter">
+      <span>Us by Us</span><br />
+      <span>Copyright something or another</span>
+    </section>
+  </footer>
+</body>
+</html>
